@@ -17,3 +17,7 @@ app.listen(3000, async () => {
     console.log(error);
   }
 });
+
+app.get("/", (req, res) => {
+  res.status(200).send("ok server is running");
+});
