@@ -8,7 +8,7 @@ let context = {
   validation: undefined,
 };
 
-app.listen(3000, async () => {
+app.listen(8080, async () => {
   try {
     console.log("app starting");
     context.db = await db();
